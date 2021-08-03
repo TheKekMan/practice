@@ -1,0 +1,78 @@
+section {
+  padding: 5px 5px 5px 5px;
+}
+
+#buttonst {
+  border: red 3px solid;
+  width: 67%;
+  width: 100px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+fieldset {
+  margin: 0 auto;
+}
+
+#legacy {
+  width: 100%;
+  border-spacing: 10px 40px;
+  text-align: center;
+}
+
+#inputst,
+#textareat,
+#imaget {
+  border: green 3px solid;
+  width: 100px;
+}
+
+#tablet {
+  border: pink 3px solid;
+}
+
+#formt {
+  width: 33%;
+  border: yellow 3px solid;
+  height: 100vh;
+}
+
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+fieldset legend {
+  text-align: center;
+}
+
+fieldset label,
+input {
+  text-align: left;
+  margin: 5px;
+}
+
+fieldset {
+  width: 15%;
+  background-color: rgb(188, 218, 218);
+}
+
+button {
+  border-radius: 2px;
+  box-shadow: 2px 2px;
+  background-color: #9c9999;
+}
+
+button:hover {
+  background-color: #d8d5d5;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  margin: 5px;
+  font-size: small;
+}
