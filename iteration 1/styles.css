@@ -1,23 +1,25 @@
 section {
-    padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
-table.table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
+table.table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
 }
-
 
 fieldset legend {
-    text-align: center;
+  text-align: center;
 }
 
-fieldset label, input {
-    text-align: left;
-    margin: 5px;
+fieldset label,
+input {
+  text-align: left;
+  margin: 5px;
 }
 
 fieldset {
-    width: 15%;
+  width: 15%;
 }
