@@ -33,7 +33,15 @@
   #flex {
     display: flex;
     flex-direction: column;
-    margin: 0 0 -40px;
+    justify-content: space-between;
+    align-content: stretch;
+    flex: auto;
+  }
+  #inputs:first-child {
+    margin-bottom: 40px;
+  }
+  #image:last-child {
+    margin-top: 40px;
   }
 
   #inputs,
@@ -41,7 +49,19 @@
   #image {
     border: green 3px solid;
     flex: 1 1 auto;
-    margin: 0 0 40px;
+  }
+
+  #fixed {
+    position: relative;
+    grid-area: yellow;
+    padding: 0;
+  }
+
+  #form {
+    border: yellow 3px solid;
+    position: fixed;
+    height: 95%;
+    width: 32%;
   }
 }
 
@@ -71,7 +91,15 @@
   #flex {
     display: flex;
     flex-direction: row;
-    margin: 0 -40px;
+    justify-content: space-between;
+    align-content: stretch;
+  }
+
+  #inputs:first-child {
+    margin-right: 40px;
+  }
+  #image:last-child {
+    margin-left: 40px;
   }
 
   #inputs,
@@ -79,7 +107,22 @@
   #image {
     border: green 3px solid;
     flex: 1 1 auto;
-    margin: 0 40px;
+  }
+  #table {
+    min-height: 300px;
+  }
+
+  #fixed {
+    position: sticky;
+    top: 0;
+    grid-area: yellow;
+    padding: 0;
+  }
+
+  #form {
+    border: yellow 3px solid;
+    height: 250px;
+    width: 100vw;
   }
 }
 
@@ -107,18 +150,11 @@ fieldset {
 #table {
   border: pink 3px solid;
   position: absolute;
+  bottom: 0;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  min-height: 300px;
-}
-
-#form {
-  border: yellow 3px solid;
-  grid-area: yellow;
-  position: sticky;
-  top: 0;
 }
 
 th,
