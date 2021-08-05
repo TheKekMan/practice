@@ -106,7 +106,7 @@
   #textarea,
   #image {
     border: green 3px solid;
-    flex: 1 1 auto;
+    flex: 0 1 100px;
   }
   #table {
     min-height: 300px;
