@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <section id="math">
+      1 + 5 = <span id="result"></span><br />
+      <button onclick="document.getElementById('result').innerHTML=sum(1,5)" id="button">
+        Result
+      </button>
+    </section>
+    <hr />
+    <section id="strings">
+      string1 + string2 = <span id="result1"></span><br />
+      <button
+        onclick="document.getElementById('result1').innerHTML=sumStr('string1','string2')"
+      >
+        Result
+      </button>
+    </section>
+    <hr />
+    <section id="other">
+      Test logic: <span id="result2"></span><br />
+      <button onclick="logic()">Result</button>
+    </section>
+    <hr />
+    <section id="script">
+      <input type="text" id="focus"><br>
+      Результат:
+      <span id="second"></span>
+    </section>
+  <script type="text/javascript">
+    let elem = document.getElementById("button");
+    elem.innerText = "Get Sum";
+    elem.onmouseover = function() {
+      elem.style.backgroundColor = "red";
+    };
+
+    elem.onmouseout = function() {
+      elem.style.backgroundColor = "";
+    };
+
+    let inputFocus = document.getElementById("focus");
+    inputFocus.onfocus = function() {
+      inputFocus.value = "Введите текст";
+    };
+
+    inputFocus.oninput = function() {
+      document.getElementById("second").innerText = inputFocus.value;
+    };
+  </script>
+</html>
