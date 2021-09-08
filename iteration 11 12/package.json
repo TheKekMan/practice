@@ -4,7 +4,7 @@
   "description": "",
   "main": "./built/index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack serve",
     "build": "webpack --mode production",
     "scr": "react-scripts start",
     "tsc": "tsc"
